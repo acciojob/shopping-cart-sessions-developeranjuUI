@@ -76,4 +76,4 @@ function clearCart() {
 clearCartBtn.addEventListener('click', clearCart);
 // Initial render
 renderProducts();
-renderCart();
+renderCart(loadCart());
